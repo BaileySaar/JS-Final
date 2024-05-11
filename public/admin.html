@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Admin</title>
+	<script src="/javascript/admin.js" defer></script>
+	<link rel="stylesheet" href="/styles/site.css">
+</head>
+<body>
+	<header>
+		<h1>Admin</h1>
+		<nav>
+			<ul class="g">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<hr>
+	</header>
+	<div id="Admin">
+		<div id="App">
+			<h1>Menu</h1>
+			<form id="add-menu">
+				<input type="text" id="menuId" placeholder="Enter ID">
+				<input type="text" id="menuName" placeholder="Enter item name">
+				<input type="text" id="menuDescription" placeholder="Enter item description">
+				<button id="#add-menu">Add Menu Item</button>
+				<button id="#update-menu">Update Menu Item</button>
+			</form>
+			<form id="delete-menu">
+				<input type="text" id="menuIdDel" placeholder="Enter ID">
+				<button id="#delete-menu">Delete Menu Item</button>
+			</form>
+			<h1>Events</h1>
+			<form id="add-event">
+				<input type="text" id="eventId" placeholder="Enter ID">
+				<input type="text" id="eventName" placeholder="Enter event name">
+				<input type="text" id="eventLocation" placeholder="Enter event location">
+				<input type="text" id="eventDate" placeholder="Enter event date">
+				<input type="text" id="eventHours" placeholder="Enter event hours">
+				<button id="#add-event">Add Event</button>
+				<button id="#update-event">Update Event</button>
+			</form>
+			<form id="delete-event">
+				<input type="text" id="eventIdDel" placeholder="Enter ID">
+				<button id="#delete-event">Delete Event</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
